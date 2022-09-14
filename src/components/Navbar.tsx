@@ -31,8 +31,8 @@ export function Navbar() {
               width: "1.2rem",
               height: "1.2rem",
               position: "absolute",
-              bottom: "5px",
-              right: "115px",
+              bottom: "6px",
+              right: "7%",
             }}
           >
             3
