@@ -9,7 +9,7 @@ type StoreItemProps = {
   imgUrl: string;
 };
 
-export function StoreItem({ id, name, price, imgUrl }: StoreItemProps) {
+export const StoreItem = ({ id, name, price, imgUrl }: StoreItemProps) => {
   const {
     getItemQuantity,
     increaseCartQuantity,
@@ -68,4 +68,4 @@ export function StoreItem({ id, name, price, imgUrl }: StoreItemProps) {
       </Card.Body>
     </Card>
   );
-}
+};

@@ -8,7 +8,7 @@ type ShoppingCartProps = {
   isOpen: boolean;
 };
 
-export function ShoppingCart({ isOpen }: ShoppingCartProps) {
+export const ShoppingCart = ({ isOpen }: ShoppingCartProps) => {
   const { closeCart, cartItems } = useShoppingCart();
 
   return (
@@ -34,4 +34,4 @@ export function ShoppingCart({ isOpen }: ShoppingCartProps) {
       </Offcanvas.Body>
     </Offcanvas>
   );
-}
+};

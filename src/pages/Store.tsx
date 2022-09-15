@@ -2,7 +2,7 @@ import { Col, Row } from "react-bootstrap";
 import { StoreItem } from "../components/StoreItem";
 import storeItems from "../data/items.json";
 
-export function Store() {
+export const Store = () => {
   return (
     <>
       <h1>Store</h1>
@@ -16,4 +16,4 @@ export function Store() {
       ;
     </>
   );
-}
+};

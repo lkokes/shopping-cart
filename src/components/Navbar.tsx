@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { useShoppingCart } from "./../context/ShoppingCartContext";
 
-export function Navbar() {
+export const Navbar = () => {
   const { openCart, cartQuantity } = useShoppingCart();
 
   return (
@@ -47,4 +47,4 @@ export function Navbar() {
       </Container>
     </NavbarBs>
   );
-}
+};
